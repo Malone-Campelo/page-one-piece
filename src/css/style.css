@@ -18,9 +18,28 @@ main .personagem .imagem {
 }
 
 .conteudo {
-    background-color: #ffa500;
     position: absolute;
     top: 0;
     left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-width: 380px;
 }
 
+.conteudo .nome-personagem {
+    background-color: green;
+    color: #ffffff;
+    font-size: 48px;
+    font-family: "Secular One";
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.conteudo .descricao {
+    background-color: blue;
+    color: #ffffff;
+    font-family: "Rubik";
+    font-size: 16px;
+}
